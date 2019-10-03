@@ -16,16 +16,16 @@ if(!isset($_SESSION['email']))   // Checking whether the session is already ther
 
 /* server
 $servername = "localhost";
-$username = "kirk";
-$password = "Tard99es5";
-$dbname = "tgp";
+$username = "xxx";
+$password = "xxx";
+$dbname = "xxx";
 */
 
 // Local
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "tgp";
+$username = "xxx";
+$password = "xxx";
+$dbname = "xxx";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
